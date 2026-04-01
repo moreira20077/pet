@@ -17,6 +17,7 @@ public class Funcionario extends Pessoa {
         this.cargo = cargo;
     }
 
+    @Override 
     public void mostrarInformacoes() {
     System.out.println("Nome: " + getNome());
     System.out.println("Cpf: " + getCpf());

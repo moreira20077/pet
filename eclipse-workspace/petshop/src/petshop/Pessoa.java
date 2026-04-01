@@ -28,7 +28,7 @@ package petshop;
 
 		
 		public String getCpf() {
-			return this.cpf;        
+			return this.cpf;      
 		
 		}
 
