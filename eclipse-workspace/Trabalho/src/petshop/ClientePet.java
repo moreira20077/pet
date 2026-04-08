@@ -9,12 +9,12 @@ public class ClientePet {
     private double peso;
     private String nome;
     private String cpf;
-    private String genero;  
+    private String generoP;  
     
-    public ClientePet(String nome,String cpf,String genero,String nomeP, String especie, String raca, int idade, double peso){
+    public ClientePet(String nome,String cpf,String generoP,String nomeP, String especie, String raca, int idade, double peso){
         this.nome = nome;
         this.cpf = cpf;
-        this.genero = genero;
+        this.generoP = generoP;
     	this.nomeP = nomeP;
         this.especie = especie;
         this.raca = raca;
@@ -29,7 +29,7 @@ public class ClientePet {
     	return this.cpf;
     }
     public String getGenero() {
-    	return this.genero; 
+    	return this.generoP; 
     }
     
     public String getNomeP(){
@@ -68,15 +68,15 @@ public class ClientePet {
     public void setCpf(String cpf) {
     	this.cpf = cpf;
     }
-    public void setGenero(String genero) {
-    	this.genero = genero;
+    public void setGenero(String generoP) {
+    	this.generoP = generoP;
     }
     public void MostrarInformacoes(){
         
         System.out.println("\n=== Cadastro ===");
         System.out.println("Cliente: " + this.nome); 
         System.out.println("CPF: " + this.cpf);
-        System.out.println("Gênero: " + this.genero);
+        System.out.println("Gênero do pet: " + this.generoP);
         System.out.println("Nome: " + this.nomeP);
         System.out.println("Espécie: " + this.especie);
         System.out.println("Raça: " + this.raca);

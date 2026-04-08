@@ -18,8 +18,8 @@ public class Servico {
     public void setPreco(double preco) { this.preco = preco; }
 
     public void mostrarServico() {
-        System.out.println("=== Servico ===");
-        System.out.println("Nome: " + nome);
-        System.out.println("Preco: R$ " + preco);
+        System.out.println("=== Serviço ===");
+        System.out.println("Descrição: " + nome);
+        System.out.println("Preço: R$ " + preco);
     }
 }
